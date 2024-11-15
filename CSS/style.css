@@ -44,6 +44,15 @@ body{
     margin-top: 20px;
     border-radius: 5px;
     padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.socials:active{
+    background-color: yellow;
+    color: black;
+    transition: 0.3s;
 }
 @media (max-width: 768px) {
     .container {
